@@ -23,7 +23,7 @@ class EmployeesService: EmployeesServiceProtocol {
                     completion(false, nil, "Error: Trying to parse Employees to model")
                 }
             } else {
-                completion(false, nil, "Error: Employees GET Request failed")
+                completion(false, nil, "Error: Employees GET Request Failed")
             }
         }
     }
